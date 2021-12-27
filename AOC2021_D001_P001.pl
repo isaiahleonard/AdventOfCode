@@ -24,7 +24,7 @@ sub main
     $idx += 1;
   }
 
-  print "Total: $ttl";
+  print $ttl;
 }
 
 main();
