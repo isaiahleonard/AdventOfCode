@@ -14,7 +14,7 @@ sub main
 
   foreach $nm2 (<STDIN>)
   {
-    # We only perform checks with a pair of numbers.
+    # We only perform checks with pairs of numbers.
     if ($idx > 0 && $nm2 > $nm1)
     {
       $ttl += 1;
